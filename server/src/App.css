@@ -17,3 +17,60 @@
 .App-link {
   color: #61dafb;
 }
+
+.imagesContainer {
+  visibility: hidden;
+}
+
+button {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+  width: 6em;
+  height: 2em;
+  margin-top: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.2em;
+  box-shadow: 3px 2px 3px 2px rgba(255, 0, 0, 0.639);
+}
+
+.img1 { 
+  margin-top: 2em;
+  width: 10em;
+  margin-bottom: 2em;
+}
+
+.img2 { 
+  width: 10em;
+  margin-bottom: 2em;
+}
+
+.img3 { 
+  width: 10em;
+  margin-bottom: 2em;
+}
+
+.img4 { 
+  width: 10em;
+  margin-bottom: 2em;
+}
+
+.img5 { 
+  width: 10em;
+  margin-bottom: 2em;
+}
+
+.img6 { 
+  width: 10em;
+  margin-bottom: 2em;
+}
+
+.img7 { 
+  width: 10em;
+  margin-bottom: 2em;
+}
+
+.img8 { 
+  width: 10em;
+  margin-bottom: 2em;
+}

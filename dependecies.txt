@@ -1,0 +1,4 @@
+PYTHON:
+
+version: 3.12.3
+libs: segno, pillow

@@ -8,6 +8,8 @@ import img7 from'../images/foto7.jpg';
 import img8 from '../images/foto8.jpg';
 
 function ShowImages() {
+        
+
         function clickHandler() {
                 return (event: React.MouseEvent) => {
                         let imagesContainer = document.getElementById("imagesContainer") as HTMLCanvasElement;
@@ -21,9 +23,6 @@ function ShowImages() {
                         
                 
 
-
-                        
-                
 
                         event.preventDefault();
                 }

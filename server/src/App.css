@@ -1,10 +1,16 @@
+@font-face {
+  font-family: 'MeowScript';
+  src: url('./fonts/MeowScript-Regular.ttf');
+}
+
+
 .App {
   text-align: center;
 }
 
 
 .App-header {
-  background-color: #12151a;
+  background-color: #1f1717;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,15 +29,16 @@
 }
 
 button {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 2em;
+  font-family: 'MeowScript', 'Helvetica Neue', Helvetica, Arial, sans-;
+  text-shadow: 2px 5px 5px #ff00004f;
+  font-size: 3em;
   width: 6em;
   height: 2em;
   margin-top: 1.2em;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 0.2em;
-  box-shadow: 3px 2px 3px 2px rgba(255, 0, 0, 0.639);
+  border-radius: 0.6em;
+  box-shadow: 2px 2px 25px 0px #ff0000a3;
 }
 
 .img1 { 

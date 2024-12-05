@@ -7,11 +7,19 @@ import img6 from'../images/foto6.jpg';
 import img7 from'../images/foto7.jpg';
 import img8 from '../images/foto8.jpg';
 
-import React, { useState } from 'react'; 
-
 function ShowImages() {
         function clickHandler() {
                 return (event: React.MouseEvent) => {
+                        let imagesContainer = document.getElementById("imagesContainer") as HTMLCanvasElement;
+                        let button = document.getElementById("button") as HTMLButtonElement;
+
+                        
+                        button.style.display = "none";
+                        imagesContainer.style.visibility = "visible";
+
+                        
+                        
+                
 
 
                         
@@ -25,7 +33,7 @@ function ShowImages() {
                 <div>
                         <button onClick={clickHandler()} id='button'>Clique aqui!</button>
 
-                        <div className='imagesContainer'>
+                        <div className='imagesContainer' id='imagesContainer'>
                                 <img src={img1} alt="foto1" className="img1"/>
                                 <img src={img2} alt="foto2" className="img2"/>
                                 <img src={img3} alt="foto3" className="img3"/>

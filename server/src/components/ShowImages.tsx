@@ -7,26 +7,21 @@ import img6 from'../images/foto6.jpg';
 import img7 from'../images/foto7.jpg';
 import img8 from '../images/foto8.jpg';
 
-import useSound from 'use-sound';
 
 function ShowImages() {
-
-        const [seeYouAgain] = useSound("../sounds/seeyouagain.mp3")
-
         function clickHandler() {
                 return (event: React.MouseEvent) => {
-                        let imagesContainer = document.getElementById("imagesContainer") as HTMLCanvasElement;
-                        let button = document.getElementById("button") as HTMLButtonElement;
 
-                        let audio = new Audio(require('../sounds/seeyouagain.mp3').default);
-        
-                        
+                        const imagesContainer = document.getElementById("imagesContainer") as HTMLCanvasElement;
+                        const button = document.getElementById("button") as HTMLButtonElement;
+                        const body = document.body as HTMLBodyElement;
+
+                
+                        body.style.overflowY = "scroll";
                         button.style.display = "none";
                         imagesContainer.style.visibility = "visible";
 
-                        
-                        
-                        seeYouAgain();
+
                         event.preventDefault();
                 }
         }
@@ -44,6 +39,11 @@ function ShowImages() {
                                 <img src={img6} alt="foto6" className="img6"/>
                                 <img src={img7} alt="foto7" className="img7"/>
                                 <img src={img8} alt="foto8" className="img8"/>
+
+                                <div className='textDiv'>
+                                        <p>Eu te amo minha muito garota! &#8826;3 </p>
+                                </div>
+                                
                         </div>
                         
 

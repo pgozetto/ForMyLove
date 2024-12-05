@@ -3,6 +3,10 @@
   src: url('./fonts/MeowScript-Regular.ttf');
 }
 
+body {
+  overflow-y: hidden;
+}
+
 
 .App {
   text-align: center;
@@ -10,6 +14,7 @@
 
 
 .App-header {
+
   background-color: #1f1717;
   min-height: 180vh;
   display: flex;
@@ -95,5 +100,16 @@ button {
   border-radius: 0.5em;
   box-shadow: 1px 1px 25px 0px #ff000050;
   width: 18em;
-  margin-bottom: 2em;
+
+}
+
+p {
+  color: red;
+  font-size: 2em;
+  font-family: 'MeowScript', 'Helvetica Neue', Helvetica, Arial, sans-;
+}
+
+.textDiv {
+  background-color: #1e0f0f;
+  border-radius: 1em;
 }

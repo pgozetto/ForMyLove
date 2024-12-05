@@ -19,7 +19,7 @@ function ShowImages() {
                 
                         body.style.overflowY = "scroll";
                         button.style.display = "none";
-                        imagesContainer.style.visibility = "visible";
+                        imagesContainer.style.display = "contents";
 
 
                         event.preventDefault();
@@ -27,7 +27,7 @@ function ShowImages() {
         }
 
         return (
-                <div>
+                <div className='imgDiv'>
                         <button onClick={clickHandler()} id='button'>Clique aqui!</button>
 
                         <div className='imagesContainer' id='imagesContainer'>

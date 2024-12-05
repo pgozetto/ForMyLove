@@ -3,14 +3,14 @@
   src: url('./fonts/MeowScript-Regular.ttf');
 }
 
-body {
-  overflow-y: hidden;
-}
+
 
 
 .App {
   text-align: center;
 }
+
+
 
 
 .App-header {
@@ -30,10 +30,12 @@ body {
 }
 
 .imagesContainer {
-  visibility: hidden;
+  display: none;
 }
 
 button {
+
+  
   font-family: 'MeowScript', 'Helvetica Neue', Helvetica, Arial, sans-;
   text-shadow: 2px 5px 5px #ff00004f;
   font-size: 3em;
@@ -44,6 +46,8 @@ button {
   margin-right: auto;
   border-radius: 0.6em;
   box-shadow: 2px 2px 25px 0px #ff0000a3;
+
+
 }
 
 .img1 { 

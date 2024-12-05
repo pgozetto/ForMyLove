@@ -7,23 +7,26 @@ import img6 from'../images/foto6.jpg';
 import img7 from'../images/foto7.jpg';
 import img8 from '../images/foto8.jpg';
 
+import useSound from 'use-sound';
+
 function ShowImages() {
-        
+
+        const [seeYouAgain] = useSound("../sounds/seeyouagain.mp3")
 
         function clickHandler() {
                 return (event: React.MouseEvent) => {
                         let imagesContainer = document.getElementById("imagesContainer") as HTMLCanvasElement;
                         let button = document.getElementById("button") as HTMLButtonElement;
 
+                        let audio = new Audio(require('../sounds/seeyouagain.mp3').default);
+        
                         
                         button.style.display = "none";
                         imagesContainer.style.visibility = "visible";
 
                         
                         
-                
-
-
+                        seeYouAgain();
                         event.preventDefault();
                 }
         }

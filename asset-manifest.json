@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ForMyLove/static/css/main.0fc87430.css",
+    "main.js": "/ForMyLove/static/js/main.1df7f3cc.js",
+    "static/js/453.a524a042.chunk.js": "/ForMyLove/static/js/453.a524a042.chunk.js",
+    "static/media/MeowScript-Regular.ttf": "/ForMyLove/static/media/MeowScript-Regular.446318d8eebe5dde9907.ttf",
+    "static/media/foto6.jpg": "/ForMyLove/static/media/foto6.123d1e970e81b321ef37.jpg",
+    "static/media/foto8.jpg": "/ForMyLove/static/media/foto8.ce7d29329e8a3d7e901a.jpg",
+    "static/media/foto2.jpg": "/ForMyLove/static/media/foto2.f6081f886909fbdc74e3.jpg",
+    "static/media/foto7.jpg": "/ForMyLove/static/media/foto7.b7586003da445bc2218a.jpg",
+    "static/media/foto4.jpg": "/ForMyLove/static/media/foto4.4205c2cd3c11d17f9945.jpg",
+    "static/media/foto1.jpg": "/ForMyLove/static/media/foto1.bad997a6d61208bec46a.jpg",
+    "static/media/foto3.jpg": "/ForMyLove/static/media/foto3.d188fa1aa2d5240e0ddb.jpg",
+    "static/media/foto5.jpg": "/ForMyLove/static/media/foto5.11cc5c16d34be2d3fbaf.jpg",
+    "index.html": "/ForMyLove/index.html",
+    "main.0fc87430.css.map": "/ForMyLove/static/css/main.0fc87430.css.map",
+    "main.1df7f3cc.js.map": "/ForMyLove/static/js/main.1df7f3cc.js.map",
+    "453.a524a042.chunk.js.map": "/ForMyLove/static/js/453.a524a042.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fc87430.css",
+    "static/js/main.1df7f3cc.js"
+  ]
+}
